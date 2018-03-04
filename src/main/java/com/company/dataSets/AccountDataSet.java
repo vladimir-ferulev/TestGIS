@@ -2,6 +2,7 @@ package com.company.dataSets;
 
 public class AccountDataSet {
     private String firstName;
+
     private String lastName;
 
     public AccountDataSet(String firstName, String lastName) {
@@ -15,6 +16,10 @@ public class AccountDataSet {
 
     public String getLastName() {
         return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     @Override
